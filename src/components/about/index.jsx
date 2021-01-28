@@ -1,12 +1,12 @@
 import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
-import {AboutSection, Avatar, Title, Text, SubTitle} from './style';
-import {SectionIntro, ContainerLayout, ResumeButton} from "../common";
+import { AboutSection, Title, Text, SubTitle, Avatar } from "./style"
+import { SectionIntro, ContainerLayout, ResumeButton } from "../common"
 
 const About = () => {
   const data = useStaticQuery(graphql`
     query {
-      placeholderImage: file(relativePath: { eq: "profile.webp" }) {
+      placeholderImage: file(relativePath: { eq: "ismail-obadimu.png" }) {
         childImageSharp {
           fluid(maxWidth: 550) {
             ...GatsbyImageSharpFluid
@@ -21,16 +21,46 @@ const About = () => {
         <ContainerLayout>
           <AboutSection>
             <div>
-              <Avatar fluid={data.placeholderImage.childImageSharp.fluid} alt="user photo" />
-              <SubTitle> Front End Developer</SubTitle>
-            </div> 
+              <Avatar
+                fluid={data.placeholderImage.childImageSharp.fluid}
+                alt="user photo"
+              />
+              <SubTitle> Software Developer</SubTitle>
+            </div>
             <div>
-              <Title> Hello, I’m AbdAli </Title>
-              <Text> I'm a digital Front End Developer hailing from <b className="text-primary lined-link">North Africa</b> living in Casablanca. </Text>
-              <Text> I love working with modern technologies, building and designing awesome projects. I prefer minimalistic & clean designs with strong user experience.</Text>
-              <Text> behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia.
+              <Title> Hello, I’m Ismail Obadimu</Title>
+              <Text>
+                {" "}
+                I'm a Software Developer, Developer Advocate{" "}
+                <small>(Andela Nigeria, DevC Lagos, &amp; Programas Hub)</small>
+                , and Founder of{" "}
+                <a
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://flexidink.com"
+                >
+                  <b className="text-primary lined-link">Flexidink</b>
+                </a>
+                .
+                {/* I prefer minimalistic & clean designs with strong user
+                experience. */}
               </Text>
-              <ResumeButton href="resume.pdf" target="_blank"> Download resume </ResumeButton>
+              <Text>
+                Currently Acing things up as a software developer at{" "}
+                <a
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://www.botsurance.ng/"
+                >
+                  <b className="text-primary lined-link">Botsurance</b>
+                </a>{" "}
+                - Using the power of technology to process genuine insurance
+                cover for every Nigerians in 24hours.
+              </Text>
+              <ResumeButton href="files/resume.pdf" target="_blank">
+                {" "}
+                Download resume{" "}
+              </ResumeButton>
             </div>
           </AboutSection>
         </ContainerLayout>
@@ -38,6 +68,5 @@ const About = () => {
     </>
   )
 }
-
 
 export default About

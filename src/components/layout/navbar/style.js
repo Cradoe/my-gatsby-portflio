@@ -26,7 +26,7 @@ export const NavbarElement = styled.div`
 export const NavbarList = styled.ul`
   padding-left: 0;
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   list-style: none;
   > li a {
     font-size: 1.2rem;

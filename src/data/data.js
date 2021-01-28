@@ -1,9 +1,9 @@
 module.exports = {
-  SiteTitle: 'Abdelali',
+  SiteTitle: 'Ismail',
   Sitelogo: '#',
-  SiteLogoText: 'Abdelali',
-  SiteAuthor: 'Abdelali Dahir',
-  SiteDescription: 'Front End Developer',
+  SiteLogoText: 'Ismail',
+  SiteAuthor: 'Ismail Obadimu',
+  SiteDescription: 'Software Developer',
   defaultDescription: 'Software engineer!', 
   githubApiQuery: `query ($number_of_repos: Int!) {
     viewer {
@@ -42,19 +42,19 @@ module.exports = {
     number_of_repos: 12,
   }, 
   SiteSocialLinks: {
-    twitter: 'https://twitter.com/AbdaliDahir',
-    github: 'https://github.com/AbdaliDahir',
-    linkedin: 'https://www.linkedin.com/in/abdelali-dahir-0b5344111/',
+    // twitter: 'https://twitter.com/Cradoe',
+    github: 'https://github.com/Cradoe',
+    linkedin: 'https://www.linkedin.com/in/ismailobadimu/',
   },
   SiteAddress: {
-    city: 'Casablanca',
-    region: 'CurvaSud',
-    country: 'Morocco',
+    city: 'Ilaro',
+    region: 'Ogun State',
+    country: 'Nigeria',
     zipCode: 'ZipCode',
   },
   SiteContact: {
-    email: 'abdali.dahir@gmail.com',
-    phone: 'phone number',
+    email: 'me@ismailobadimu.com',
+    phone: '08149617083',
   },
-  SiteCopyright: '2020',
+  SiteCopyright: '2021',
 };
