@@ -34,7 +34,7 @@ const Footer = () => {
             </FooterSocialMedia>
             <div>
               <p className="text-primary quote">
-                Ready to take the next step and work together?
+                Ready to take the next step and work with me?
               </p>
               <ButtonDefault href={`mailto:${data.SiteContact.email}`}>
                 Contact me

@@ -23,7 +23,7 @@ export const RepositoryFooter = ({ repo }) => {
             backgroundColor: language ? language.node.color : '#000'
           }}
         />{" "}
-        {language ? language.node.name : 'undifined'}
+        {language ? language.node.name : 'undefined'}
       </FooterItem>
       <FooterItem>
         <Star className="star" />

@@ -64,7 +64,7 @@ const BlogIndex = ({ data }) => {
                         </Title>
                         <SmallText> 
                           <Calendar className="align-middle text-primary" width="18" height="18" /> 
-                          <span className="align-middle"> date published : {node.frontmatter.date} </span>
+                          <span className="align-middle"> Date published : {node.frontmatter.date} </span>
                         </SmallText>
                         <SmallText> 
                           <Clock className="align-middle text-primary" width="18" height="18" /> 
