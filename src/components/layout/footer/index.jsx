@@ -49,12 +49,12 @@ const Footer = () => {
                 {new Date().getFullYear()}, Built with {` `}
                 <a href="https://www.gatsbyjs.org">Gatsby </a>
               </span>
-              Copyright 2020 by {data.SiteAuthor}
+              by {data.SiteAuthor}.
               <br />
-              Template by{" "}
-              <a href="https://github.com/AbdaliDahir/gatsby-portfolio">
-                AbdaliDahir
-              </a>
+              <span>
+                Template by{" "}
+                <a href="https://github.com/AbdaliDahir">AbdaliDahir</a>
+              </span>
             </CopyRight>
           </div>
         </ContainerLayout>
