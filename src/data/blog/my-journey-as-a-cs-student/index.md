@@ -1,5 +1,5 @@
 ---
-title: My Journey As A Computer Science Student 🤔 ?
+title: My Journey As A Computer Science Student 🤔
 categories: ["school", "experience", "career", "education"]
 image: "./740484a4790bd97387629172c77ea14c.webp"
 imageCredit: https://dribbble.com/shots/13973611-Smile
