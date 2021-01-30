@@ -8,8 +8,6 @@ time: 3
 description: "Faith, they say has reasons for its decisions; The Federal Polytechnic, Ilaro believed in me and offered me an unconditional offer for a part-time a Computer Science program, which provided me with a way to continue to fight for my dreams alongside many like-minded individuals."
 ---
 
-<!-- ![Chinese Salty Egg](./e4d5ed47ee58aa859995cae2a4e83221.webp) -->
-
 # <span style="color:#FF2D2D">Where & When It Started</span>
 
 I come from a public secondary school background and have always, since the age of 13, had the aspiration of becoming a software engineer (My friends would always make a joke of me, writing HTML and CSS codes on my Tecno T381). I opted for Computer Engineering at The Federal University, Akure (FUTA) when the time comes for JAMB application, obtained computer science part-time form at The Federal Polytechnic, Ilaro, as an alternative if peradventure I got jammed by JAMB. The first and second lists came out from FUTA but my name wasn’t on the lists. And when my name came as part of FPI’s first list, I took the risk, resumed school, intending to go back to Akure if my name eventually comes out.
