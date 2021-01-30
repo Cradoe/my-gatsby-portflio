@@ -1,7 +1,7 @@
 ---
 title: My Experience In The Federal Polytechnic, Ilaro
 date: "2021-01-28T23:46:37.121Z"
-image: "./e4d5ed47ee58aa859995cae2a4e83221.jpg"
+image: "./e4d5ed47ee58aa859995cae2a4e83221.webp"
 imageCredit: https://www.youtube.com/watch?v=FFdT_g7kfy0
 time: 12
 categories: ["life", "experience", "school"]

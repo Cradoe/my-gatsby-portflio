@@ -6,7 +6,7 @@ import { SectionIntro, ContainerLayout, ResumeButton } from "../common"
 const About = () => {
   const data = useStaticQuery(graphql`
     query {
-      placeholderImage: file(relativePath: { eq: "ismail-obadimu.png" }) {
+      placeholderImage: file(relativePath: { eq: "ismail-obadimu.webp" }) {
         childImageSharp {
           fluid(maxWidth: 550) {
             ...GatsbyImageSharpFluid
