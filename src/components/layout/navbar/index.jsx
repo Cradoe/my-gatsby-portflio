@@ -34,8 +34,12 @@ const Navbar = ({ siteTitle }) => (
               </Link>
             </li>
             <li>
-              <Link to="/blog" className="lined-link" activeClassName="active">
-                <Feather /> <span> Blog </span>
+              <Link
+                to="https://www.flexidink.com"
+                className="lined-link"
+                activeClassName="active"
+              >
+                <Feather /> <span> Flexidink </span>
               </Link>
             </li>
           </NavbarList>

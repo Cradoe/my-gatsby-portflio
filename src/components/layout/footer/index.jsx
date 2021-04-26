@@ -44,17 +44,7 @@ const Footer = () => {
           <div className="box">
             <SubRight> Good design doesn't date. Bad design does. </SubRight>
             <CopyRight className="text-dark">
-              ©
-              <span>
-                {new Date().getFullYear()}, Built with {` `}
-                <a href="https://www.gatsbyjs.org">Gatsby </a>
-              </span>
-              by {data.SiteAuthor}.
-              <br />
-              <span>
-                Template by{" "}
-                <a href="https://github.com/AbdaliDahir">AbdaliDahir</a>
-              </span>
+              ©<span>{new Date().getFullYear()} </span>
             </CopyRight>
           </div>
         </ContainerLayout>

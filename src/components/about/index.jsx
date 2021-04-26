@@ -30,7 +30,7 @@ const About = () => {
               <Title> Hello, I’m Ismail Obadimu</Title>
               <Text>
                 {" "}
-                I'm a Software Developer, Tech Enthusiast, Developer Advocate{" "}
+                I'm a Software Developer, Techpreneur, Developer Advocate{" "}
                 <small>(Andela Nigeria, DevC Lagos, &amp; Programas Hub)</small>
                 , and Founder of{" "}
                 <a
@@ -43,19 +43,17 @@ const About = () => {
                 .
               </Text>
               <Text>
-                Currently Acing things up as a software developer at{" "}
-                <a
-                  target="_blank"
-                  rel="noreferrer"
-                  href="https://www.botsurance.ng/"
-                >
-                  <b className="text-primary lined-link">Botsurance</b>
-                </a>{" "}
-                - Using the power of technology to process genuine insurance
-                cover for every Nigerian in 24hours.
+                I started my programming career at the age of 13, would spend
+                most hours of the day trying to figure out the stuff behind
+                those stunning websites, using my Tecno T381. And ever since
+                then, I'd like to make the web a better place.
               </Text>
-              <ResumeButton href="https://flexidink.com" target="_blank">
-                My Startup
+              <Text>
+                Hopefully we cross paths in the real world someday and we can
+                make it a better place together.
+              </Text>
+              <ResumeButton href="ismail-obadimu-cv.pdf" target="_blank">
+                My Resume
               </ResumeButton>
             </div>
           </AboutSection>
